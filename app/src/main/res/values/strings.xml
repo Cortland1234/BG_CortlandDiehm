@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Blood Glucose Monitor</string>
+    <string name="fasting">Fasting:</string>
+    <string name="glucose_hint">Enter Glucose</string>
+    <string name="breakfast">Breakfast:</string>
+    <string name="lunch">Lunch:</string>
+    <string name="dinner">Dinner:</string>
+    <string name="clear">Clear</string>
+    <string name="history">History</string>
+    <string name="new_glucose">New Glucose</string>
+    <string name="del_glucose">Delete Glucose</string>
+    <string name="send_glucose">Send Glucose</string>
+    <string name="send_report">Send glucose report via</string>
+    <string name="glucose_report">Glucose report from %1$s:
+        Fasting: %2$d Breakfast: %3$d Lunch: %4$d Dinner: %5$d</string>
+    <string name="glucose_report_subject">BG Monitor Glucose Report</string>
+</resources>

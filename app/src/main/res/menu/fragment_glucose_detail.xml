@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/del_glucose"
+        android:icon="@drawable/ic_menu_add_2"
+        android:title="@string/del_glucose"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/send_glucose"
+        android:icon="@drawable/ic_menu_send"
+        android:title="@string/send_glucose"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

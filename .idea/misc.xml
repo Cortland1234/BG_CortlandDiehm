@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BG_CortlandDiehm/app/src/main/res/drawable/ic_menu_send.xml" value="0.242" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BG_CortlandDiehm/app/src/main/res/layout/activity_main.xml" value="0.46574074074074073" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BG_CortlandDiehm/app/src/main/res/layout/fragment_glucose_detail.xml" value="0.46574074074074073" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BG_CortlandDiehm/app/src/main/res/layout/glucose_list_fragment.xml" value="0.5092592592592593" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BG_CortlandDiehm/app/src/main/res/layout/list_item_glucose.xml" value="0.45" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BG_CortlandDiehm/app/src/main/res/menu/fragment_glucose_detail.xml" value="0.5092592592592593" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BG_CortlandDiehm/app/src/main/res/menu/fragment_glucose_list.xml" value="0.5092592592592593" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BloodGlucoseMonitor_CortlandDiehm/app/src/main/res/drawable/ic_menu_add_1.xml" value="0.226" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BloodGlucoseMonitor_CortlandDiehm/app/src/main/res/layout/activity_main.xml" value="0.3921875" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BloodGlucoseMonitor_CortlandDiehm/app/src/main/res/layout/fragment_glucose_detail.xml" value="0.553125" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BloodGlucoseMonitor_CortlandDiehm/app/src/main/res/layout/glucose_list_fragment.xml" value="0.553125" />
+        <entry key="..\:/Users/cortl/Documents/CortlandSchool/CSCV 381/BloodGlucoseMonitor_CortlandDiehm/app/src/main/res/menu/fragment_glucose_list.xml" value="0.5520833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

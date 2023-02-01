@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/glucoseListFragment">
+
+    <fragment
+        android:id="@+id/glucoseListFragment"
+        android:name="edu.arizona.cast.cortlanddiehm.bloodglucosemonitor_cortlanddiehm.GlucoseListFragment"
+        android:label="GlucoseListFragment"
+        tools:layout="@layout/glucose_list_fragment">
+        <action
+            android:id="@+id/show_glucose_detail"
+            app:destination="@id/glucoseDetailFragment" />
+        <action
+            android:id="@+id/select_date"
+            app:destination="@id/datePickerFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/glucoseDetailFragment"
+        android:name="edu.arizona.cast.cortlanddiehm.bloodglucosemonitor_cortlanddiehm.GlucoseDetailFragment"
+        android:label="GlucoseDetailFragment"
+        tools:layout="@layout/fragment_glucose_detail">
+        <action
+            android:id="@+id/show_glucose_detail"
+            app:destination="@id/glucoseDetailFragment" />
+
+        <argument android:name="glucoseID"
+            app:argType="java.util.Date" />
+        <action
+            android:id="@+id/select_date"
+            app:destination="@id/datePickerFragment"/>
+    </fragment>
+    <dialog
+        android:id="@+id/datePickerFragment"
+        android:name="edu.arizona.cast.cortlanddiehm.bloodglucosemonitor_cortlanddiehm.DatePickerFragment"
+        android:label="DatePickerFragment">
+        <action
+            android:id="@+id/show_glucose_detail"
+            app:destination="@id/glucoseDetailFragment" />
+        <argument
+            android:name="glucoseDate"
+            app:argType="java.util.Date"/>
+    </dialog>
+
+</navigation>
